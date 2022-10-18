@@ -1,0 +1,88 @@
+      /*  .header{
+            background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7),url(images/gonzaga-university.jpeg));
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        */
+ 
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        h1{
+            text-align: center;
+            margin-top: 0;
+        }
+        body {
+           /* background-color: cornflowerblue;
+            font-family: Verdana;
+            text-align: center;
+            */
+            margin: 0;
+            background-image: url("images/gonzaga-university.jpeg");
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color:white;
+            /*border: 1px solid #777;
+            border-radius: 2px;*/
+            font-family: inherit;
+            margin: auto;
+            font-size: 21px;
+            display: block;
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .h1{
+            font-family: Verdana;
+            padding: 10px;
+            
+        }
